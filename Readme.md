@@ -51,12 +51,13 @@ Sketch - Second Part: Client:
    - Open the Boards Manager via Tools > Boards > Boards Manager.
    - Search for "ESP8266" in the Boards Manager and install "ESP8266 by ESP8266 Community."
 3. Restart the Arduino IDE.
-4. Two libraries need to be installed manually as they are not available in the Arduino IDE's Library Manager: "ESPAsyncWebServer" and "ESPAsyncTCP."
+4. Prüfe über Tools > Board, ob ESP8266 verfügbar ist.
+5. Two libraries need to be installed manually as they are not available in the Arduino IDE's Library Manager: "ESPAsyncWebServer" and "ESPAsyncTCP."
    - Download the ESPAsyncWebServer library (https://github.com/me-no-dev/ESPAsyncWebServer/archive/refs/heads/master.zip).
    - Download the ESPAsyncTCP library (https://github.com/me-no-dev/ESPAsyncTCP/archive/refs/heads/master.zip).
    - In the Arduino IDE, go to Sketch > Include Library > Add .ZIP Library and select the downloaded libraries.
-5. Assemble the components as described in the assembly instructions.
-6. Clone the repository: https://github.com/P4CreativeCoding/P4_SS23_Moveo_Team4_Timm.
+6. Assemble the components as described in the assembly instructions.
+7. Clone the repository: https://github.com/P4CreativeCoding/P4_SS23_Moveo_Team4_Timm.
 
 # Getting Started
 
